@@ -1,0 +1,17 @@
+{
+  "name": "bili",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bili.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        bilibili: <input type="text" value="https://www.bilibili.com/video/BV1mE411h7Co?p=214&vd_source=f965d7eef7f387776acda86b280d685f" name="url" id = "url" size="200"><br>
+    </form>
+    <button type="button" onclick="test()">点我!</button>
+    <script type = "text/javascript" src="bili.js"></script>
+    <script type = "text/javascript">
+        function test() {
+            var url = document.getElementById('url').value;
+            console.log("parseUrl: ", url);
+            var [bvid, pid] = parseUrl(url);
+            // var [bvid, pid] = [1,2];
+            console.log("getIframe: ", bvid, pid);
+            getIframeApi(bvid, pid);
+        }
+    </script>
+            <!-- <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+            <iframe src="https://player.bilibili.com/player.html?aid=73840600&bvid=BV1mE411h7Co&cid=126406826&page=218" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe>
+        </div>
+        <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+            <iframe src="http://player.bilibili.com/player.html?bvid=BV1mE411h7Co&page=218" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe>
+        </div> -->
+        <!-- <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+            <iframe src="https://player.bilibili.com/player.html?aid=undefinedbvid=BV1mE411h7Co&cid=126406826" scrolling="no" border="0" frameborder="no"
+            framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe>
+          </div> -->
+          <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+            <iframe src="https://player.bilibili.com/player.html?aid=82838691&bvid=BV1iJ411H74S&cid=141724861" scrolling="no" border="0" frameborder="no"
+            framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe>
+          </div>
+</body>
+</html>
