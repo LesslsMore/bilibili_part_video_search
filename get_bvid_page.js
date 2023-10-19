@@ -4,6 +4,9 @@ import { dirname } from 'path';
 import { mid, pn, write_json } from './get_up_video_info.js';
 import { get_bvid_info } from './get_bvid_info.js';
 
+// 各视频播放量
+let bvid_play = new Map()
+
 // 2. 从 ./up/${mid}/${p}.json 读取 up 所有视频信息文件，从每分页中获取 bvid 信息
 let bvids = read_up_video_info(mid, pn)
 
@@ -41,9 +44,11 @@ function get_page_info(bvid){
       // console.log(url)
       // console.log(el.part)
       let part = el.part
+      let play = bvid_play.get(bvid)
       page_info.push({
         url,
         part,
+        play
       })
     }
   )
@@ -63,6 +68,7 @@ function read_up_video_info(mid, pn) {
           // console.log(el.title)
           // console.log(el.bvid)
           bvids.push(el.bvid)
+          bvid_play.set(el.bvid, el.play)
       });
   }
   console.log(bvids.length)

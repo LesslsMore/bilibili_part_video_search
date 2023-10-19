@@ -2,11 +2,11 @@ import request from 'request';
 import { readFileSync, writeFile, mkdir } from 'fs';
 import { dirname } from 'path';
 
-// let mid = '302417610'
-// let pn = 13
+let mid = '302417610'
+let pn = 13
 
-let mid = '37974444'
-let pn = 16
+// let mid = '37974444'
+// let pn = 16
 
 
 

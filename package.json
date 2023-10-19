@@ -12,6 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@elastic/elasticsearch": "^8.10.0",
+    "elasticsearch": "^16.7.3",
     "request": "^2.88.2"
   }
 }
