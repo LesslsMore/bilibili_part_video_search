@@ -7,6 +7,8 @@ import { get_bvid_info } from './get_bvid_info.js';
 import {generate, parse, transform, stringify} from 'csv/sync';
 import { basename, extname } from 'path';
 
+import ExcelJS from 'exceljs';
+
 let ups = [
   {
     'mid': "302417610",
@@ -42,7 +44,7 @@ function read_up_video_info(mid, pn) {
           bvids.push(bvid_path)
       });
   }
-  console.log(bvids.length)
+  console.log(`每 mid 下 bvid 数：${bvids.length}`)
   return bvids
 }
 
@@ -53,7 +55,53 @@ function read_up_video_info(mid, pn) {
 
 // get_bvid_page()
 
-item2csv('up_2')
+// item2csv('up_2')
+
+item2xlsx('up_2')
+
+function get_cols(o) {
+  let cols = Object.keys(o).map(k => {
+      return {
+          "header": k,
+          "key": k,
+      }
+  })
+  return cols
+}
+
+function item2xlsx(file) {
+  let file_path = `./data/${file}.xlsx`
+
+  let item_list = []
+  bvid_list.forEach(bvid => {
+      let items = get_item_info(bvid)
+      item_list = item_list.concat(items)
+    } 
+  )
+  item_list.map(item => {
+    item.url = {
+      text: item.url,
+      hyperlink: item.url,
+    }
+    return item
+  })
+  
+  const workbook = new ExcelJS.Workbook();
+  
+  const worksheet = workbook.addWorksheet('up_2');
+  
+  worksheet.columns = get_cols(item_list[0])
+  console.log(`写入数据数：${item_list.length}`)
+  const newRows = worksheet.addRows(item_list);
+
+  workbook.xlsx.writeFile(file_path)
+  .then(() => {
+    console.log('File saved successfully!');
+  })
+  .catch((error) => {
+    console.error(error);
+  });
+}
 
 function item2csv(file) {
   let csv_path = `./data/${file}.csv`
@@ -110,20 +158,21 @@ function get_item_info(bvid_path){
       let duration = el.duration
 
       item_info.push({
-        mid,
         name,
+        mid,
+        bvid,
+        cid,
+        url,
+        page,
+
         view,
 
-        bvid,
-        url,
-
-        page,
-        cid,
-        part,
-        duration, 
+        duration,
+        part, 
       })
     }
   )
+  console.log(`每 bvid 下 cid 数：${item_info.length}`)
   return item_info
 }
 

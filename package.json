@@ -16,6 +16,7 @@
     "csv": "^6.3.6",
     "csv-write-stream": "^2.0.0",
     "elasticsearch": "^16.7.3",
+    "exceljs": "^4.4.0",
     "request": "^2.88.2"
   }
 }
