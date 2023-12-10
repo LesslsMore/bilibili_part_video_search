@@ -1,1 +1,1539 @@
-{"code":0,"message":"0","ttl":1,"data":{"bvid":"BV1a34y167AZ","aid":807488433,"videos":96,"tid":231,"tname":"计算机技术","copyright":1,"pic":"http://i2.hdslb.com/bfs/archive/a35e28d321c55c783526b2382431409935ddfb9f.jpg","title":"黑马程序员Node.js全套入门教程，nodejs新教程含es6模块化+npm+express+webpack+promise等_Nodejs实战案例详解","pubdate":1640136607,"ctime":1640136608,"desc":"传智教育·黑马程序员前端研究院全新录制的前端入门教程，相关资料源码笔记等关注微信公众号：黑马程序员，回复关键词：领取资源02\n===============================\n本套课程作为框架前置课，重点为学生铺垫 npm、包、模块化、身份认证、CORS 跨域等主要知识点，为学习后面的 Vue 课程夯实基础。\n同时，本课程涵盖了 MySQL 数据库、API 接口项目开发等后端内容，拓宽了学生的知识面，为前端学生构建了前后端完整的知识体系，助力学生更好地发展。\n===============================\n本教程学完请继续下一课程：Vue2+Vue3框架BV1zq4y1p7ga","desc_v2":[{"raw_text":"传智教育·黑马程序员前端研究院全新录制的前端入门教程，相关资料源码笔记等关注微信公众号：黑马程序员，回复关键词：领取资源02\n===============================\n本套课程作为框架前置课，重点为学生铺垫 npm、包、模块化、身份认证、CORS 跨域等主要知识点，为学习后面的 Vue 课程夯实基础。\n同时，本课程涵盖了 MySQL 数据库、API 接口项目开发等后端内容，拓宽了学生的知识面，为前端学生构建了前后端完整的知识体系，助力学生更好地发展。\n===============================\n本教程学完请继续下一课程：Vue2+Vue3框架BV1zq4y1p7ga","type":1,"biz_id":0}],"state":0,"duration":81272,"mission_id":286196,"rights":{"bp":0,"elec":0,"download":1,"movie":0,"pay":0,"hd5":0,"no_reprint":1,"autoplay":1,"ugc_pay":0,"is_cooperation":0,"ugc_pay_preview":0,"no_background":0,"clean_mode":0,"is_stein_gate":0,"is_360":0,"no_share":0,"arc_pay":0,"free_watch":0},"owner":{"mid":37974444,"name":"黑马程序员","face":"https://i0.hdslb.com/bfs/face/a71b4dd6647ddf0c813bcf74e062edab9224cb0e.jpg"},"stat":{"aid":807488433,"view":2085569,"danmaku":55259,"reply":3053,"favorite":57322,"coin":15925,"share":6803,"now_rank":0,"his_rank":0,"like":18565,"dislike":0,"evaluation":"","argue_msg":"","vt":0},"dynamic":"","cid":1236960814,"dimension":{"width":1920,"height":1080,"rotate":0},"premiere":null,"teenage_mode":0,"is_chargeable_season":false,"is_story":false,"is_upower_exclusive":false,"is_upower_play":false,"enable_vt":0,"vt_display":"","no_cache":false,"pages":[{"cid":1236960814,"page":1,"from":"vupload","part":"00.学习目标","duration":161,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n230817sa5h3a4cnvlgfpeimcl5g6j23_firsti.jpg"},{"cid":1236960832,"page":2,"from":"vupload","part":"01.初识Node-浏览器中的JavaScript运行环境","duration":843,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n230817sa3u7am5ev02pz41wi6ib8f6f_firsti.jpg"},{"cid":1236960781,"page":3,"from":"vupload","part":"02.初识Node-什么是Node.js","duration":707,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n230817sa3d66l5kgk4o7t3ke5bd71hg_firsti.jpg"},{"cid":465317205,"page":4,"from":"vupload","part":"03.初识Node-安装Node.js","duration":566,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a21n4mygtfg22yt2qzd4rg9yf_firsti.jpg"},{"cid":465317349,"page":5,"from":"vupload","part":"04.初识Node-使用Node运行JS代码","duration":1034,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n211221a23shqum7hkem6p37jnv6ok15_firsti.jpg"},{"cid":465317643,"page":6,"from":"vupload","part":"05.fs-读取文件内容","duration":1027,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n211221a21gsbgjhz569zn81tc1pixyy_firsti.jpg"},{"cid":465317868,"page":7,"from":"vupload","part":"06.fs-写入文件内容","duration":581,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i2.hdslb.com/bfs/storyff/n211221a2k32pyatk9fz51ul8703c2af_firsti.jpg"},{"cid":465318118,"page":8,"from":"vupload","part":"07.fs-整理成绩的案例","duration":806,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a2vinxcerhzchd34yg1fq02xt_firsti.jpg"},{"cid":465318334,"page":9,"from":"vupload","part":"08.fs-处理路径问题","duration":1177,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n211221a23g1autdtavpvgw3h9qecbp4_firsti.jpg"},{"cid":465318643,"page":10,"from":"vupload","part":"09.path-使用path模块处理路径","duration":1071,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i2.hdslb.com/bfs/storyff/n211221a212hce5h66zwvi3lwuvxrkyh_firsti.jpg"},{"cid":465318761,"page":11,"from":"vupload","part":"10.时钟案例-分析需求\u0026读取文件内容","duration":737,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a22n32q997bs4tt2r1ux2qcso_firsti.jpg"},{"cid":465319175,"page":12,"from":"vupload","part":"11.时钟案例-处理CSS、JS、HTML","duration":1434,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a2f7qdb8s63gxj2vidoq4qpsp_firsti.jpg"},{"cid":773933709,"page":13,"from":"vupload","part":"12.时钟案例-时钟案例的两个注意点","duration":209,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i2.hdslb.com/bfs/storyff/n220715082wjar2tptg5xgyavxjo9f3s_firsti.jpg"},{"cid":773929203,"page":14,"from":"vupload","part":"01.http-理解http模块的概念及作用","duration":502,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n220715073eidqt2j2w5g51f9hb97z1b_firsti.jpg"},{"cid":465319463,"page":15,"from":"vupload","part":"02.http-服务器相关的概念","duration":871,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a2cpajin9o6w5n22xj00frknu_firsti.jpg"},{"cid":465319604,"page":16,"from":"vupload","part":"03.http-创建最基本的web服务器","duration":1929,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a23bcm0w3ns637d3ufytsheax_firsti.jpg"},{"cid":465319778,"page":17,"from":"vupload","part":"04.http-根据不同的url响应不同的html内容","duration":712,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a23byg1ll2s73m41i8ct80raw_firsti.jpg"},{"cid":465319975,"page":18,"from":"vupload","part":"05.http-时钟web服务器案例","duration":1579,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a2b2f80kvyi5lt1s6x6r73lxm_firsti.jpg"},{"cid":465320154,"page":19,"from":"vupload","part":"06.模块化-模块化的概念","duration":343,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n211221a22yl6avyraynkl2rtnvmvfxb_firsti.jpg"},{"cid":465320234,"page":20,"from":"vupload","part":"07.模块化-模块的分类\u0026require的使用","duration":540,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n211221a21r0mfukt1vpeezqbfledx6b_firsti.jpg"},{"cid":465320347,"page":21,"from":"vupload","part":"08.模块化-模块作用域和module对象","duration":537,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a218eryfdmiqvl83b7iadwfq7_firsti.jpg"},{"cid":465320500,"page":22,"from":"vupload","part":"09.模块化-module.exports对象的使用","duration":761,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n211221a28zu5fifxgjwz2hryfydt2xb_firsti.jpg"},{"cid":465320673,"page":23,"from":"vupload","part":"10.模块化-exports对象","duration":381,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i2.hdslb.com/bfs/storyff/n211221a21u2zvul9b2djn3w2herwhvd_firsti.jpg"},{"cid":465320757,"page":24,"from":"vupload","part":"11.模块化-exports和module.exports的使用误区","duration":728,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n211221a23hk501hx7y0s21v60imddor_firsti.jpg"},{"cid":465320950,"page":25,"from":"vupload","part":"12.模块化-CommonJS模块化规范","duration":118,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a2143zcn6wevq951ejoocd5uz_firsti.jpg"},{"cid":465320970,"page":26,"from":"vupload","part":"13.包与npm-包的概念","duration":517,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a22vaaq8pu4oa4u9l3mwounrx_firsti.jpg"},{"cid":465321085,"page":27,"from":"vupload","part":"14.包与npm-格式化时间的两种做法","duration":1249,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i2.hdslb.com/bfs/storyff/n211221a2344vyytg2rlefpjh50aj1q3_firsti.jpg"},{"cid":773930165,"page":28,"from":"vupload","part":"15.包与npm-使用npm的其它注意点","duration":502,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n220715062bghwrdwyd457354nv459ot_firsti.jpg"},{"cid":773929409,"page":29,"from":"vupload","part":"01.包管理配置文件","duration":1459,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i2.hdslb.com/bfs/storyff/n220715081ccdnih38m1t81rdpzmhisz_firsti.jpg"},{"cid":465321587,"page":30,"from":"vupload","part":"02.解决下包慢的问题","duration":880,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n211221a2305og4ddo0qkye4nasnszos_firsti.jpg"},{"cid":465321922,"page":31,"from":"vupload","part":"03.包的分类\u0026规范的包结构","duration":737,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a23fidn7xaf86d2b2fxj5nq19_firsti.jpg"},{"cid":465322356,"page":32,"from":"vupload","part":"04.发布包-初始化基础的包结构","duration":813,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i2.hdslb.com/bfs/storyff/n211221a2mq127cfr1g4m387tj5uqqce_firsti.jpg"},{"cid":465322773,"page":33,"from":"vupload","part":"05.发布包-格式化时间\u0026main属性","duration":546,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a23245xjatvxezl195nw171iz_firsti.jpg"},{"cid":465322921,"page":34,"from":"vupload","part":"06.发布包-转义\u0026还原HTML的方法","duration":681,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i2.hdslb.com/bfs/storyff/n211221a2b74pbyebao993k8cesohj5s_firsti.jpg"},{"cid":465323091,"page":35,"from":"vupload","part":"07.发布包-模块化拆分\u0026编写包的使用说明文档","duration":843,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a2224ekv9mtssgfsi0q1cefdn_firsti.jpg"},{"cid":465323242,"page":36,"from":"vupload","part":"08.发布包-把包发布到npm","duration":867,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n211221a22sdqj3gq6e7te2jyp3v556l_firsti.jpg"},{"cid":465323420,"page":37,"from":"vupload","part":"09.模块的加载机制","duration":1137,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a21dt0u36oo18t82n2og7xnql_firsti.jpg"},{"cid":465324084,"page":38,"from":"vupload","part":"10.express-认识express并创建基本额web服务器","duration":596,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a2uootvuh7nvok3h019q018xo_firsti.jpg"},{"cid":465324259,"page":39,"from":"vupload","part":"11.express-监听GET和POST请求\u0026处理参数","duration":1214,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n211221a29gboigke9tue1c118qe6jck_firsti.jpg"},{"cid":465324486,"page":40,"from":"vupload","part":"12.express-静态资源处理","duration":947,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n211221a211c1thtqkew3e1xvn8u0l9m_firsti.jpg"},{"cid":773929689,"page":41,"from":"vupload","part":"13.express-安装并使用nodemon","duration":326,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n220715011vk2otiy5adby2p5tix3p9u_firsti.jpg"},{"cid":773929359,"page":42,"from":"vupload","part":"01.路由-初识express中的路由","duration":785,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n220715011ezmsbuqy4ycz3rgy73hqdd_firsti.jpg"},{"cid":465324721,"page":43,"from":"vupload","part":"02.路由-路由的模块化","duration":968,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a23v290god23gjq1a7atj0qgp_firsti.jpg"},{"cid":465324934,"page":44,"from":"vupload","part":"03.中间件-中间件的概念与格式","duration":494,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a21to8q8hb8ha2zou5zqtlkc3_firsti.jpg"},{"cid":465325037,"page":45,"from":"vupload","part":"04.中间件-全局生效的中间件","duration":1500,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n211221a2x8oo930t51sc273dxcwg21n_firsti.jpg"},{"cid":465325319,"page":46,"from":"vupload","part":"05.中间件-局部生效的中间件","duration":596,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i2.hdslb.com/bfs/storyff/n211221a22z105tl1r1nca79d5kzqzn3_firsti.jpg"},{"cid":465325464,"page":47,"from":"vupload","part":"06.中间件-中间件的5个注意事项","duration":246,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n211221a22qsucb6hyslt66yuo68oa2p_firsti.jpg"},{"cid":465325514,"page":48,"from":"vupload","part":"07.中间件-中间件的分类","duration":2386,"vid":"","weblink":"","dimension":{"width":1280,"height":720,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a2e5t4unobklj1hzqbm2ic0as_firsti.jpg"},{"cid":465325695,"page":49,"from":"vupload","part":"08.中间件-自定义中间件","duration":1351,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a23b67e87gbqj01ywifnrtbry_firsti.jpg"},{"cid":465325856,"page":50,"from":"vupload","part":"09.编写接口-创建基本的服务器\u0026创建API路由模块","duration":377,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n211221a22eax9e3ndobi3t9pz8wwsvb_firsti.jpg"},{"cid":465325958,"page":51,"from":"vupload","part":"10.编写接口-编写GET接口","duration":368,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a2sg2jlfsios3p1qm39myg3y7_firsti.jpg"},{"cid":465326061,"page":52,"from":"vupload","part":"11.编写接口-编写POST接口","duration":345,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a23mhk6l28xn3z92p5oe1wnye_firsti.jpg"},{"cid":465326192,"page":53,"from":"vupload","part":"12.编写接口-基于cors解决接口跨域问题","duration":719,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i2.hdslb.com/bfs/storyff/n211221a22zrp0yi1g24kw3t0ddb3ciz_firsti.jpg"},{"cid":465326404,"page":54,"from":"vupload","part":"13.跨域-cors相关的三个响应头","duration":336,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a22u6x7yaang2fz2fmd39s8on_firsti.jpg"},{"cid":465326477,"page":55,"from":"vupload","part":"14.跨域-cors的简单请求与预检请求","duration":517,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n211221a2phby1criyokrkcm990grpt8_firsti.jpg"},{"cid":773934292,"page":56,"from":"vupload","part":"15.跨域-编写jsonp接口","duration":777,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i2.hdslb.com/bfs/storyff/n220715153cxasc8lpxhl02mhh77fvys_firsti.jpg"},{"cid":773929385,"page":57,"from":"vupload","part":"00.学习目标","duration":87,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n22071515iourxv6fjnpv2hofqcddnod_firsti.jpg"},{"cid":465326682,"page":58,"from":"vupload","part":"01.数据库的基本概念","duration":899,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i2.hdslb.com/bfs/storyff/n211221a21zsrb0cjk2itk3iedtwfz66_firsti.jpg"},{"cid":465326868,"page":59,"from":"vupload","part":"02.安装MySQL数据库","duration":1056,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i2.hdslb.com/bfs/storyff/n211221a22kt9tx93a8nqx2pfm5mkpgy_firsti.jpg"},{"cid":465327001,"page":60,"from":"vupload","part":"03.MySQL-Workbench的基本用法","duration":434,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n211221a2qe98melv9mlhi7waecbikzo_firsti.jpg"},{"cid":465327110,"page":61,"from":"vupload","part":"04.创建数据库和表","duration":1661,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n211221a225kb5l7yln7of112klaou7v_firsti.jpg"},{"cid":465327245,"page":62,"from":"vupload","part":"05.了解什么是SQL","duration":252,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n211221a22kphq7k8yo9n43vcf7gdedw_firsti.jpg"},{"cid":465327306,"page":63,"from":"vupload","part":"06.SQL语句-select、insert、update、delete","duration":1336,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i2.hdslb.com/bfs/storyff/n211221a23pddorzl3vach2bayfqjgvj_firsti.jpg"},{"cid":465327553,"page":64,"from":"vupload","part":"07.SQL语句-where子句、and和or运算符","duration":717,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i2.hdslb.com/bfs/storyff/n211221a21yc89d0d1hlx6vulz47x1mm_firsti.jpg"},{"cid":465327765,"page":65,"from":"vupload","part":"08.SQL语句-排序","duration":563,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n211221a22eiljj0ze2l8u3v0dno5zln_firsti.jpg"},{"cid":465327966,"page":66,"from":"vupload","part":"09.SQL语句-count函数和as关键字","duration":295,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a2iuzm48y9y0ca3osvg76o295_firsti.jpg"},{"cid":465328072,"page":67,"from":"vupload","part":"10.SQL语句-演示如何保存和打开.sql的文件","duration":96,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i2.hdslb.com/bfs/storyff/n211221a22bgs9m9fkfuskad8iesaw7s_firsti.jpg"},{"cid":465328108,"page":68,"from":"vupload","part":"11.mysql模块-安装并配置mysql模块","duration":681,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i2.hdslb.com/bfs/storyff/n211221a23v13vot71g90tzejt1ypd9y_firsti.jpg"},{"cid":465328427,"page":69,"from":"vupload","part":"12.mysql模块-查询和插入数据","duration":1307,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a21bwqojf9t0ze63fq5e2ts5f_firsti.jpg"},{"cid":773929711,"page":70,"from":"vupload","part":"13.mysql模块-更新和删除数据","duration":1180,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n22071514g7vlt6qvxn332ys3v39hinh_firsti.jpg"},{"cid":773932608,"page":71,"from":"vupload","part":"01.web开发模式","duration":553,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n220715011vh1e5akk6rt71xaxlu2991_firsti.jpg"},{"cid":465328766,"page":72,"from":"vupload","part":"02.身份认证的概念","duration":227,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a23rkdksb0f4j941y4bkveu25_firsti.jpg"},{"cid":465328819,"page":73,"from":"vupload","part":"03.session原理","duration":1478,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i2.hdslb.com/bfs/storyff/n211221a23sykjl1y4u33v2g12ntngf3_firsti.jpg"},{"cid":465329036,"page":74,"from":"vupload","part":"04.session中间件的使用","duration":1077,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n211221a23j8su1uu4ybjr3sg5w080t3_firsti.jpg"},{"cid":465329232,"page":75,"from":"vupload","part":"05.jwt-了解token的原理","duration":584,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n211221a29fquw07319d711cqqdwqj88_firsti.jpg"},{"cid":465329361,"page":76,"from":"vupload","part":"06.jwt-在express中生成token","duration":1702,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i2.hdslb.com/bfs/storyff/n211221a222zs8tgijk2ph2tubvsg95m_firsti.jpg"},{"cid":465329534,"page":77,"from":"vupload","part":"07.项目-初始化项目","duration":486,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a23l1z6nw8eajx2bnfni6iqp7_firsti.jpg"},{"cid":465329711,"page":78,"from":"vupload","part":"08.项目-初始化路由模块","duration":805,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a2loclsfff3c2m2gnfwwr0bb1_firsti.jpg"},{"cid":465330066,"page":79,"from":"vupload","part":"09.项目-开发注册用户的API接口","duration":2239,"vid":"","weblink":"","dimension":{"width":1280,"height":720,"rotate":0},"first_frame":"http://i2.hdslb.com/bfs/storyff/n211221a223oeemhuctm2t1t2x75ef5r_firsti.jpg"},{"cid":776925110,"page":80,"from":"vupload","part":"10.项目-代码优化","duration":2495,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n220718155zoklp56y1qr18quqypwu3a_firsti.jpg"},{"cid":773933586,"page":81,"from":"vupload","part":"01.项目-开发登录的API接口","duration":954,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i2.hdslb.com/bfs/storyff/n22071507zzr1yelqs4ygdtijo5ja573_firsti.jpg"},{"cid":465330715,"page":82,"from":"vupload","part":"02.项目-token的生成与验证","duration":1273,"vid":"","weblink":"","dimension":{"width":1280,"height":720,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a2w1n2afzuru2l27qh5pknzox_firsti.jpg"},{"cid":465331137,"page":83,"from":"vupload","part":"03.项目-开发获取用户的基本信息的接口","duration":1061,"vid":"","weblink":"","dimension":{"width":1280,"height":720,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n211221a22tcdmlz26litx22c79gyn8r_firsti.jpg"},{"cid":465331459,"page":84,"from":"vupload","part":"04.项目-开发更新用户的基本信息的接口","duration":1488,"vid":"","weblink":"","dimension":{"width":1280,"height":720,"rotate":0},"first_frame":"http://i2.hdslb.com/bfs/storyff/n211221a2ew0vwkodxe7e30kgghpy3ql_firsti.jpg"},{"cid":465332082,"page":85,"from":"vupload","part":"05.项目-开发重置密码的接口","duration":1519,"vid":"","weblink":"","dimension":{"width":1280,"height":720,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a21zbm5inh93tqg3vlys6d5qv_firsti.jpg"},{"cid":465332772,"page":86,"from":"vupload","part":"06.项目-开发更换头像的接口","duration":818,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n211221a23n0a1f2lsd3hbofspfd7k4f_firsti.jpg"},{"cid":773930457,"page":87,"from":"vupload","part":"07.总结","duration":99,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i2.hdslb.com/bfs/storyff/n220715061sdg1k4j3v7wm14o2j6n94q_firsti.jpg"},{"cid":773933776,"page":88,"from":"vupload","part":"01.新建ev_article_cate数据表","duration":348,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i2.hdslb.com/bfs/storyff/n22071515ad7afrcd7dr32wyqqq4stkj_firsti.jpg"},{"cid":465333505,"page":89,"from":"vupload","part":"02.项目-开发获取文章分类列表的接口","duration":1056,"vid":"","weblink":"","dimension":{"width":1280,"height":720,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n211221a2262b87y47bd20qp233j4mpb_firsti.jpg"},{"cid":465333907,"page":90,"from":"vupload","part":"03.项目-开发新增文章分类的接口","duration":1698,"vid":"","weblink":"","dimension":{"width":1280,"height":720,"rotate":0},"first_frame":"http://i2.hdslb.com/bfs/storyff/n211221a22sr2j1uuhvr3x1bcetem7d9_firsti.jpg"},{"cid":465334419,"page":91,"from":"vupload","part":"04.项目-开发根据id删除文章分类的接口","duration":889,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a2r8afvw11nmhp2xerg546ca6_firsti.jpg"},{"cid":465317864,"page":92,"from":"vupload","part":"05.项目-开发根据id获取文章分类的接口","duration":804,"vid":"","weblink":"","dimension":{"width":1280,"height":720,"rotate":0},"first_frame":"http://i2.hdslb.com/bfs/storyff/n211221a2336avi6z0b0ju2vns09orq2_firsti.jpg"},{"cid":465335131,"page":93,"from":"vupload","part":"06.项目-开发根据id更新文章分类的接口","duration":1415,"vid":"","weblink":"","dimension":{"width":1280,"height":720,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n211221a23jgjj9a5dyx263vtf0mfc9i_firsti.jpg"},{"cid":465336114,"page":94,"from":"vupload","part":"07.新建ev_articles文章表","duration":444,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i2.hdslb.com/bfs/storyff/n211221a21ddvjcfbkmgzx9w4m5yr9v8_firsti.jpg"},{"cid":465336626,"page":95,"from":"vupload","part":"08.项目-初始化发布文章的路由模块","duration":558,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i1.hdslb.com/bfs/storyff/n211221a22r4w6f19a2pir2ib2z7loug_firsti.jpg"},{"cid":1236961023,"page":96,"from":"vupload","part":"09.演示API接口的使用","duration":205,"vid":"","weblink":"","dimension":{"width":1920,"height":1080,"rotate":0},"first_frame":"http://i0.hdslb.com/bfs/storyff/n230817safida1cp2cukq2vqicnq199r_firsti.jpg"}],"subtitle":{"allow_submit":false,"list":[]},"is_season_display":false,"user_garb":{"url_image_ani_cut":""},"honor_reply":{},"like_icon":"","need_jump_bv":false,"disable_show_up_info":false}}
+{
+    "code": 0,
+    "message": "0",
+    "ttl": 1,
+    "data": {
+        "bvid": "BV1a34y167AZ",
+        "aid": 807488433,
+        "videos": 96,
+        "tid": 231,
+        "tname": "计算机技术",
+        "copyright": 1,
+        "pic": "http://i2.hdslb.com/bfs/archive/a35e28d321c55c783526b2382431409935ddfb9f.jpg",
+        "title": "黑马程序员Node.js全套入门教程，nodejs新教程含es6模块化+npm+express+webpack+promise等_Nodejs实战案例详解",
+        "pubdate": 1640136607,
+        "ctime": 1640136608,
+        "desc": "传智教育·黑马程序员前端研究院全新录制的前端入门教程，相关资料源码笔记等关注微信公众号：黑马程序员，回复关键词：领取资源02\n===============================\n本套课程作为框架前置课，重点为学生铺垫 npm、包、模块化、身份认证、CORS 跨域等主要知识点，为学习后面的 Vue 课程夯实基础。\n同时，本课程涵盖了 MySQL 数据库、API 接口项目开发等后端内容，拓宽了学生的知识面，为前端学生构建了前后端完整的知识体系，助力学生更好地发展。\n===============================\n本教程学完请继续下一课程：Vue2+Vue3框架BV1zq4y1p7ga",
+        "desc_v2": [
+            {
+                "raw_text": "传智教育·黑马程序员前端研究院全新录制的前端入门教程，相关资料源码笔记等关注微信公众号：黑马程序员，回复关键词：领取资源02\n===============================\n本套课程作为框架前置课，重点为学生铺垫 npm、包、模块化、身份认证、CORS 跨域等主要知识点，为学习后面的 Vue 课程夯实基础。\n同时，本课程涵盖了 MySQL 数据库、API 接口项目开发等后端内容，拓宽了学生的知识面，为前端学生构建了前后端完整的知识体系，助力学生更好地发展。\n===============================\n本教程学完请继续下一课程：Vue2+Vue3框架BV1zq4y1p7ga",
+                "type": 1,
+                "biz_id": 0
+            }
+        ],
+        "state": 0,
+        "duration": 81272,
+        "mission_id": 286196,
+        "rights": {
+            "bp": 0,
+            "elec": 0,
+            "download": 1,
+            "movie": 0,
+            "pay": 0,
+            "hd5": 0,
+            "no_reprint": 1,
+            "autoplay": 1,
+            "ugc_pay": 0,
+            "is_cooperation": 0,
+            "ugc_pay_preview": 0,
+            "no_background": 0,
+            "clean_mode": 0,
+            "is_stein_gate": 0,
+            "is_360": 0,
+            "no_share": 0,
+            "arc_pay": 0,
+            "free_watch": 0
+        },
+        "owner": {
+            "mid": 37974444,
+            "name": "黑马程序员",
+            "face": "https://i0.hdslb.com/bfs/face/a71b4dd6647ddf0c813bcf74e062edab9224cb0e.jpg"
+        },
+        "stat": {
+            "aid": 807488433,
+            "view": 2085569,
+            "danmaku": 55259,
+            "reply": 3053,
+            "favorite": 57322,
+            "coin": 15925,
+            "share": 6803,
+            "now_rank": 0,
+            "his_rank": 0,
+            "like": 18565,
+            "dislike": 0,
+            "evaluation": "",
+            "argue_msg": "",
+            "vt": 0
+        },
+        "dynamic": "",
+        "cid": 1236960814,
+        "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+        },
+        "premiere": null,
+        "teenage_mode": 0,
+        "is_chargeable_season": false,
+        "is_story": false,
+        "is_upower_exclusive": false,
+        "is_upower_play": false,
+        "enable_vt": 0,
+        "vt_display": "",
+        "no_cache": false,
+        "pages": [
+            {
+                "cid": 1236960814,
+                "page": 1,
+                "from": "vupload",
+                "part": "00.学习目标",
+                "duration": 161,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n230817sa5h3a4cnvlgfpeimcl5g6j23_firsti.jpg"
+            },
+            {
+                "cid": 1236960832,
+                "page": 2,
+                "from": "vupload",
+                "part": "01.初识Node-浏览器中的JavaScript运行环境",
+                "duration": 843,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n230817sa3u7am5ev02pz41wi6ib8f6f_firsti.jpg"
+            },
+            {
+                "cid": 1236960781,
+                "page": 3,
+                "from": "vupload",
+                "part": "02.初识Node-什么是Node.js",
+                "duration": 707,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n230817sa3d66l5kgk4o7t3ke5bd71hg_firsti.jpg"
+            },
+            {
+                "cid": 465317205,
+                "page": 4,
+                "from": "vupload",
+                "part": "03.初识Node-安装Node.js",
+                "duration": 566,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a21n4mygtfg22yt2qzd4rg9yf_firsti.jpg"
+            },
+            {
+                "cid": 465317349,
+                "page": 5,
+                "from": "vupload",
+                "part": "04.初识Node-使用Node运行JS代码",
+                "duration": 1034,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n211221a23shqum7hkem6p37jnv6ok15_firsti.jpg"
+            },
+            {
+                "cid": 465317643,
+                "page": 6,
+                "from": "vupload",
+                "part": "05.fs-读取文件内容",
+                "duration": 1027,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n211221a21gsbgjhz569zn81tc1pixyy_firsti.jpg"
+            },
+            {
+                "cid": 465317868,
+                "page": 7,
+                "from": "vupload",
+                "part": "06.fs-写入文件内容",
+                "duration": 581,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n211221a2k32pyatk9fz51ul8703c2af_firsti.jpg"
+            },
+            {
+                "cid": 465318118,
+                "page": 8,
+                "from": "vupload",
+                "part": "07.fs-整理成绩的案例",
+                "duration": 806,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a2vinxcerhzchd34yg1fq02xt_firsti.jpg"
+            },
+            {
+                "cid": 465318334,
+                "page": 9,
+                "from": "vupload",
+                "part": "08.fs-处理路径问题",
+                "duration": 1177,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n211221a23g1autdtavpvgw3h9qecbp4_firsti.jpg"
+            },
+            {
+                "cid": 465318643,
+                "page": 10,
+                "from": "vupload",
+                "part": "09.path-使用path模块处理路径",
+                "duration": 1071,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n211221a212hce5h66zwvi3lwuvxrkyh_firsti.jpg"
+            },
+            {
+                "cid": 465318761,
+                "page": 11,
+                "from": "vupload",
+                "part": "10.时钟案例-分析需求&读取文件内容",
+                "duration": 737,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a22n32q997bs4tt2r1ux2qcso_firsti.jpg"
+            },
+            {
+                "cid": 465319175,
+                "page": 12,
+                "from": "vupload",
+                "part": "11.时钟案例-处理CSS、JS、HTML",
+                "duration": 1434,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a2f7qdb8s63gxj2vidoq4qpsp_firsti.jpg"
+            },
+            {
+                "cid": 773933709,
+                "page": 13,
+                "from": "vupload",
+                "part": "12.时钟案例-时钟案例的两个注意点",
+                "duration": 209,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n220715082wjar2tptg5xgyavxjo9f3s_firsti.jpg"
+            },
+            {
+                "cid": 773929203,
+                "page": 14,
+                "from": "vupload",
+                "part": "01.http-理解http模块的概念及作用",
+                "duration": 502,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n220715073eidqt2j2w5g51f9hb97z1b_firsti.jpg"
+            },
+            {
+                "cid": 465319463,
+                "page": 15,
+                "from": "vupload",
+                "part": "02.http-服务器相关的概念",
+                "duration": 871,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a2cpajin9o6w5n22xj00frknu_firsti.jpg"
+            },
+            {
+                "cid": 465319604,
+                "page": 16,
+                "from": "vupload",
+                "part": "03.http-创建最基本的web服务器",
+                "duration": 1929,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a23bcm0w3ns637d3ufytsheax_firsti.jpg"
+            },
+            {
+                "cid": 465319778,
+                "page": 17,
+                "from": "vupload",
+                "part": "04.http-根据不同的url响应不同的html内容",
+                "duration": 712,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a23byg1ll2s73m41i8ct80raw_firsti.jpg"
+            },
+            {
+                "cid": 465319975,
+                "page": 18,
+                "from": "vupload",
+                "part": "05.http-时钟web服务器案例",
+                "duration": 1579,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a2b2f80kvyi5lt1s6x6r73lxm_firsti.jpg"
+            },
+            {
+                "cid": 465320154,
+                "page": 19,
+                "from": "vupload",
+                "part": "06.模块化-模块化的概念",
+                "duration": 343,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n211221a22yl6avyraynkl2rtnvmvfxb_firsti.jpg"
+            },
+            {
+                "cid": 465320234,
+                "page": 20,
+                "from": "vupload",
+                "part": "07.模块化-模块的分类&require的使用",
+                "duration": 540,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n211221a21r0mfukt1vpeezqbfledx6b_firsti.jpg"
+            },
+            {
+                "cid": 465320347,
+                "page": 21,
+                "from": "vupload",
+                "part": "08.模块化-模块作用域和module对象",
+                "duration": 537,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a218eryfdmiqvl83b7iadwfq7_firsti.jpg"
+            },
+            {
+                "cid": 465320500,
+                "page": 22,
+                "from": "vupload",
+                "part": "09.模块化-module.exports对象的使用",
+                "duration": 761,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n211221a28zu5fifxgjwz2hryfydt2xb_firsti.jpg"
+            },
+            {
+                "cid": 465320673,
+                "page": 23,
+                "from": "vupload",
+                "part": "10.模块化-exports对象",
+                "duration": 381,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n211221a21u2zvul9b2djn3w2herwhvd_firsti.jpg"
+            },
+            {
+                "cid": 465320757,
+                "page": 24,
+                "from": "vupload",
+                "part": "11.模块化-exports和module.exports的使用误区",
+                "duration": 728,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n211221a23hk501hx7y0s21v60imddor_firsti.jpg"
+            },
+            {
+                "cid": 465320950,
+                "page": 25,
+                "from": "vupload",
+                "part": "12.模块化-CommonJS模块化规范",
+                "duration": 118,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a2143zcn6wevq951ejoocd5uz_firsti.jpg"
+            },
+            {
+                "cid": 465320970,
+                "page": 26,
+                "from": "vupload",
+                "part": "13.包与npm-包的概念",
+                "duration": 517,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a22vaaq8pu4oa4u9l3mwounrx_firsti.jpg"
+            },
+            {
+                "cid": 465321085,
+                "page": 27,
+                "from": "vupload",
+                "part": "14.包与npm-格式化时间的两种做法",
+                "duration": 1249,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n211221a2344vyytg2rlefpjh50aj1q3_firsti.jpg"
+            },
+            {
+                "cid": 773930165,
+                "page": 28,
+                "from": "vupload",
+                "part": "15.包与npm-使用npm的其它注意点",
+                "duration": 502,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n220715062bghwrdwyd457354nv459ot_firsti.jpg"
+            },
+            {
+                "cid": 773929409,
+                "page": 29,
+                "from": "vupload",
+                "part": "01.包管理配置文件",
+                "duration": 1459,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n220715081ccdnih38m1t81rdpzmhisz_firsti.jpg"
+            },
+            {
+                "cid": 465321587,
+                "page": 30,
+                "from": "vupload",
+                "part": "02.解决下包慢的问题",
+                "duration": 880,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n211221a2305og4ddo0qkye4nasnszos_firsti.jpg"
+            },
+            {
+                "cid": 465321922,
+                "page": 31,
+                "from": "vupload",
+                "part": "03.包的分类&规范的包结构",
+                "duration": 737,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a23fidn7xaf86d2b2fxj5nq19_firsti.jpg"
+            },
+            {
+                "cid": 465322356,
+                "page": 32,
+                "from": "vupload",
+                "part": "04.发布包-初始化基础的包结构",
+                "duration": 813,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n211221a2mq127cfr1g4m387tj5uqqce_firsti.jpg"
+            },
+            {
+                "cid": 465322773,
+                "page": 33,
+                "from": "vupload",
+                "part": "05.发布包-格式化时间&main属性",
+                "duration": 546,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a23245xjatvxezl195nw171iz_firsti.jpg"
+            },
+            {
+                "cid": 465322921,
+                "page": 34,
+                "from": "vupload",
+                "part": "06.发布包-转义&还原HTML的方法",
+                "duration": 681,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n211221a2b74pbyebao993k8cesohj5s_firsti.jpg"
+            },
+            {
+                "cid": 465323091,
+                "page": 35,
+                "from": "vupload",
+                "part": "07.发布包-模块化拆分&编写包的使用说明文档",
+                "duration": 843,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a2224ekv9mtssgfsi0q1cefdn_firsti.jpg"
+            },
+            {
+                "cid": 465323242,
+                "page": 36,
+                "from": "vupload",
+                "part": "08.发布包-把包发布到npm",
+                "duration": 867,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n211221a22sdqj3gq6e7te2jyp3v556l_firsti.jpg"
+            },
+            {
+                "cid": 465323420,
+                "page": 37,
+                "from": "vupload",
+                "part": "09.模块的加载机制",
+                "duration": 1137,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a21dt0u36oo18t82n2og7xnql_firsti.jpg"
+            },
+            {
+                "cid": 465324084,
+                "page": 38,
+                "from": "vupload",
+                "part": "10.express-认识express并创建基本额web服务器",
+                "duration": 596,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a2uootvuh7nvok3h019q018xo_firsti.jpg"
+            },
+            {
+                "cid": 465324259,
+                "page": 39,
+                "from": "vupload",
+                "part": "11.express-监听GET和POST请求&处理参数",
+                "duration": 1214,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n211221a29gboigke9tue1c118qe6jck_firsti.jpg"
+            },
+            {
+                "cid": 465324486,
+                "page": 40,
+                "from": "vupload",
+                "part": "12.express-静态资源处理",
+                "duration": 947,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n211221a211c1thtqkew3e1xvn8u0l9m_firsti.jpg"
+            },
+            {
+                "cid": 773929689,
+                "page": 41,
+                "from": "vupload",
+                "part": "13.express-安装并使用nodemon",
+                "duration": 326,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n220715011vk2otiy5adby2p5tix3p9u_firsti.jpg"
+            },
+            {
+                "cid": 773929359,
+                "page": 42,
+                "from": "vupload",
+                "part": "01.路由-初识express中的路由",
+                "duration": 785,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n220715011ezmsbuqy4ycz3rgy73hqdd_firsti.jpg"
+            },
+            {
+                "cid": 465324721,
+                "page": 43,
+                "from": "vupload",
+                "part": "02.路由-路由的模块化",
+                "duration": 968,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a23v290god23gjq1a7atj0qgp_firsti.jpg"
+            },
+            {
+                "cid": 465324934,
+                "page": 44,
+                "from": "vupload",
+                "part": "03.中间件-中间件的概念与格式",
+                "duration": 494,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a21to8q8hb8ha2zou5zqtlkc3_firsti.jpg"
+            },
+            {
+                "cid": 465325037,
+                "page": 45,
+                "from": "vupload",
+                "part": "04.中间件-全局生效的中间件",
+                "duration": 1500,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n211221a2x8oo930t51sc273dxcwg21n_firsti.jpg"
+            },
+            {
+                "cid": 465325319,
+                "page": 46,
+                "from": "vupload",
+                "part": "05.中间件-局部生效的中间件",
+                "duration": 596,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n211221a22z105tl1r1nca79d5kzqzn3_firsti.jpg"
+            },
+            {
+                "cid": 465325464,
+                "page": 47,
+                "from": "vupload",
+                "part": "06.中间件-中间件的5个注意事项",
+                "duration": 246,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n211221a22qsucb6hyslt66yuo68oa2p_firsti.jpg"
+            },
+            {
+                "cid": 465325514,
+                "page": 48,
+                "from": "vupload",
+                "part": "07.中间件-中间件的分类",
+                "duration": 2386,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1280,
+                    "height": 720,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a2e5t4unobklj1hzqbm2ic0as_firsti.jpg"
+            },
+            {
+                "cid": 465325695,
+                "page": 49,
+                "from": "vupload",
+                "part": "08.中间件-自定义中间件",
+                "duration": 1351,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a23b67e87gbqj01ywifnrtbry_firsti.jpg"
+            },
+            {
+                "cid": 465325856,
+                "page": 50,
+                "from": "vupload",
+                "part": "09.编写接口-创建基本的服务器&创建API路由模块",
+                "duration": 377,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n211221a22eax9e3ndobi3t9pz8wwsvb_firsti.jpg"
+            },
+            {
+                "cid": 465325958,
+                "page": 51,
+                "from": "vupload",
+                "part": "10.编写接口-编写GET接口",
+                "duration": 368,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a2sg2jlfsios3p1qm39myg3y7_firsti.jpg"
+            },
+            {
+                "cid": 465326061,
+                "page": 52,
+                "from": "vupload",
+                "part": "11.编写接口-编写POST接口",
+                "duration": 345,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a23mhk6l28xn3z92p5oe1wnye_firsti.jpg"
+            },
+            {
+                "cid": 465326192,
+                "page": 53,
+                "from": "vupload",
+                "part": "12.编写接口-基于cors解决接口跨域问题",
+                "duration": 719,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n211221a22zrp0yi1g24kw3t0ddb3ciz_firsti.jpg"
+            },
+            {
+                "cid": 465326404,
+                "page": 54,
+                "from": "vupload",
+                "part": "13.跨域-cors相关的三个响应头",
+                "duration": 336,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a22u6x7yaang2fz2fmd39s8on_firsti.jpg"
+            },
+            {
+                "cid": 465326477,
+                "page": 55,
+                "from": "vupload",
+                "part": "14.跨域-cors的简单请求与预检请求",
+                "duration": 517,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n211221a2phby1criyokrkcm990grpt8_firsti.jpg"
+            },
+            {
+                "cid": 773934292,
+                "page": 56,
+                "from": "vupload",
+                "part": "15.跨域-编写jsonp接口",
+                "duration": 777,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n220715153cxasc8lpxhl02mhh77fvys_firsti.jpg"
+            },
+            {
+                "cid": 773929385,
+                "page": 57,
+                "from": "vupload",
+                "part": "00.学习目标",
+                "duration": 87,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n22071515iourxv6fjnpv2hofqcddnod_firsti.jpg"
+            },
+            {
+                "cid": 465326682,
+                "page": 58,
+                "from": "vupload",
+                "part": "01.数据库的基本概念",
+                "duration": 899,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n211221a21zsrb0cjk2itk3iedtwfz66_firsti.jpg"
+            },
+            {
+                "cid": 465326868,
+                "page": 59,
+                "from": "vupload",
+                "part": "02.安装MySQL数据库",
+                "duration": 1056,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n211221a22kt9tx93a8nqx2pfm5mkpgy_firsti.jpg"
+            },
+            {
+                "cid": 465327001,
+                "page": 60,
+                "from": "vupload",
+                "part": "03.MySQL-Workbench的基本用法",
+                "duration": 434,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n211221a2qe98melv9mlhi7waecbikzo_firsti.jpg"
+            },
+            {
+                "cid": 465327110,
+                "page": 61,
+                "from": "vupload",
+                "part": "04.创建数据库和表",
+                "duration": 1661,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n211221a225kb5l7yln7of112klaou7v_firsti.jpg"
+            },
+            {
+                "cid": 465327245,
+                "page": 62,
+                "from": "vupload",
+                "part": "05.了解什么是SQL",
+                "duration": 252,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n211221a22kphq7k8yo9n43vcf7gdedw_firsti.jpg"
+            },
+            {
+                "cid": 465327306,
+                "page": 63,
+                "from": "vupload",
+                "part": "06.SQL语句-select、insert、update、delete",
+                "duration": 1336,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n211221a23pddorzl3vach2bayfqjgvj_firsti.jpg"
+            },
+            {
+                "cid": 465327553,
+                "page": 64,
+                "from": "vupload",
+                "part": "07.SQL语句-where子句、and和or运算符",
+                "duration": 717,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n211221a21yc89d0d1hlx6vulz47x1mm_firsti.jpg"
+            },
+            {
+                "cid": 465327765,
+                "page": 65,
+                "from": "vupload",
+                "part": "08.SQL语句-排序",
+                "duration": 563,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n211221a22eiljj0ze2l8u3v0dno5zln_firsti.jpg"
+            },
+            {
+                "cid": 465327966,
+                "page": 66,
+                "from": "vupload",
+                "part": "09.SQL语句-count函数和as关键字",
+                "duration": 295,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a2iuzm48y9y0ca3osvg76o295_firsti.jpg"
+            },
+            {
+                "cid": 465328072,
+                "page": 67,
+                "from": "vupload",
+                "part": "10.SQL语句-演示如何保存和打开.sql的文件",
+                "duration": 96,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n211221a22bgs9m9fkfuskad8iesaw7s_firsti.jpg"
+            },
+            {
+                "cid": 465328108,
+                "page": 68,
+                "from": "vupload",
+                "part": "11.mysql模块-安装并配置mysql模块",
+                "duration": 681,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n211221a23v13vot71g90tzejt1ypd9y_firsti.jpg"
+            },
+            {
+                "cid": 465328427,
+                "page": 69,
+                "from": "vupload",
+                "part": "12.mysql模块-查询和插入数据",
+                "duration": 1307,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a21bwqojf9t0ze63fq5e2ts5f_firsti.jpg"
+            },
+            {
+                "cid": 773929711,
+                "page": 70,
+                "from": "vupload",
+                "part": "13.mysql模块-更新和删除数据",
+                "duration": 1180,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n22071514g7vlt6qvxn332ys3v39hinh_firsti.jpg"
+            },
+            {
+                "cid": 773932608,
+                "page": 71,
+                "from": "vupload",
+                "part": "01.web开发模式",
+                "duration": 553,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n220715011vh1e5akk6rt71xaxlu2991_firsti.jpg"
+            },
+            {
+                "cid": 465328766,
+                "page": 72,
+                "from": "vupload",
+                "part": "02.身份认证的概念",
+                "duration": 227,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a23rkdksb0f4j941y4bkveu25_firsti.jpg"
+            },
+            {
+                "cid": 465328819,
+                "page": 73,
+                "from": "vupload",
+                "part": "03.session原理",
+                "duration": 1478,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n211221a23sykjl1y4u33v2g12ntngf3_firsti.jpg"
+            },
+            {
+                "cid": 465329036,
+                "page": 74,
+                "from": "vupload",
+                "part": "04.session中间件的使用",
+                "duration": 1077,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n211221a23j8su1uu4ybjr3sg5w080t3_firsti.jpg"
+            },
+            {
+                "cid": 465329232,
+                "page": 75,
+                "from": "vupload",
+                "part": "05.jwt-了解token的原理",
+                "duration": 584,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n211221a29fquw07319d711cqqdwqj88_firsti.jpg"
+            },
+            {
+                "cid": 465329361,
+                "page": 76,
+                "from": "vupload",
+                "part": "06.jwt-在express中生成token",
+                "duration": 1702,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n211221a222zs8tgijk2ph2tubvsg95m_firsti.jpg"
+            },
+            {
+                "cid": 465329534,
+                "page": 77,
+                "from": "vupload",
+                "part": "07.项目-初始化项目",
+                "duration": 486,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a23l1z6nw8eajx2bnfni6iqp7_firsti.jpg"
+            },
+            {
+                "cid": 465329711,
+                "page": 78,
+                "from": "vupload",
+                "part": "08.项目-初始化路由模块",
+                "duration": 805,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a2loclsfff3c2m2gnfwwr0bb1_firsti.jpg"
+            },
+            {
+                "cid": 465330066,
+                "page": 79,
+                "from": "vupload",
+                "part": "09.项目-开发注册用户的API接口",
+                "duration": 2239,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1280,
+                    "height": 720,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n211221a223oeemhuctm2t1t2x75ef5r_firsti.jpg"
+            },
+            {
+                "cid": 776925110,
+                "page": 80,
+                "from": "vupload",
+                "part": "10.项目-代码优化",
+                "duration": 2495,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n220718155zoklp56y1qr18quqypwu3a_firsti.jpg"
+            },
+            {
+                "cid": 773933586,
+                "page": 81,
+                "from": "vupload",
+                "part": "01.项目-开发登录的API接口",
+                "duration": 954,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n22071507zzr1yelqs4ygdtijo5ja573_firsti.jpg"
+            },
+            {
+                "cid": 465330715,
+                "page": 82,
+                "from": "vupload",
+                "part": "02.项目-token的生成与验证",
+                "duration": 1273,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1280,
+                    "height": 720,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a2w1n2afzuru2l27qh5pknzox_firsti.jpg"
+            },
+            {
+                "cid": 465331137,
+                "page": 83,
+                "from": "vupload",
+                "part": "03.项目-开发获取用户的基本信息的接口",
+                "duration": 1061,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1280,
+                    "height": 720,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n211221a22tcdmlz26litx22c79gyn8r_firsti.jpg"
+            },
+            {
+                "cid": 465331459,
+                "page": 84,
+                "from": "vupload",
+                "part": "04.项目-开发更新用户的基本信息的接口",
+                "duration": 1488,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1280,
+                    "height": 720,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n211221a2ew0vwkodxe7e30kgghpy3ql_firsti.jpg"
+            },
+            {
+                "cid": 465332082,
+                "page": 85,
+                "from": "vupload",
+                "part": "05.项目-开发重置密码的接口",
+                "duration": 1519,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1280,
+                    "height": 720,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a21zbm5inh93tqg3vlys6d5qv_firsti.jpg"
+            },
+            {
+                "cid": 465332772,
+                "page": 86,
+                "from": "vupload",
+                "part": "06.项目-开发更换头像的接口",
+                "duration": 818,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n211221a23n0a1f2lsd3hbofspfd7k4f_firsti.jpg"
+            },
+            {
+                "cid": 773930457,
+                "page": 87,
+                "from": "vupload",
+                "part": "07.总结",
+                "duration": 99,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n220715061sdg1k4j3v7wm14o2j6n94q_firsti.jpg"
+            },
+            {
+                "cid": 773933776,
+                "page": 88,
+                "from": "vupload",
+                "part": "01.新建ev_article_cate数据表",
+                "duration": 348,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n22071515ad7afrcd7dr32wyqqq4stkj_firsti.jpg"
+            },
+            {
+                "cid": 465333505,
+                "page": 89,
+                "from": "vupload",
+                "part": "02.项目-开发获取文章分类列表的接口",
+                "duration": 1056,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1280,
+                    "height": 720,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n211221a2262b87y47bd20qp233j4mpb_firsti.jpg"
+            },
+            {
+                "cid": 465333907,
+                "page": 90,
+                "from": "vupload",
+                "part": "03.项目-开发新增文章分类的接口",
+                "duration": 1698,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1280,
+                    "height": 720,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n211221a22sr2j1uuhvr3x1bcetem7d9_firsti.jpg"
+            },
+            {
+                "cid": 465334419,
+                "page": 91,
+                "from": "vupload",
+                "part": "04.项目-开发根据id删除文章分类的接口",
+                "duration": 889,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a2r8afvw11nmhp2xerg546ca6_firsti.jpg"
+            },
+            {
+                "cid": 465317864,
+                "page": 92,
+                "from": "vupload",
+                "part": "05.项目-开发根据id获取文章分类的接口",
+                "duration": 804,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1280,
+                    "height": 720,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n211221a2336avi6z0b0ju2vns09orq2_firsti.jpg"
+            },
+            {
+                "cid": 465335131,
+                "page": 93,
+                "from": "vupload",
+                "part": "06.项目-开发根据id更新文章分类的接口",
+                "duration": 1415,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1280,
+                    "height": 720,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n211221a23jgjj9a5dyx263vtf0mfc9i_firsti.jpg"
+            },
+            {
+                "cid": 465336114,
+                "page": 94,
+                "from": "vupload",
+                "part": "07.新建ev_articles文章表",
+                "duration": 444,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n211221a21ddvjcfbkmgzx9w4m5yr9v8_firsti.jpg"
+            },
+            {
+                "cid": 465336626,
+                "page": 95,
+                "from": "vupload",
+                "part": "08.项目-初始化发布文章的路由模块",
+                "duration": 558,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n211221a22r4w6f19a2pir2ib2z7loug_firsti.jpg"
+            },
+            {
+                "cid": 1236961023,
+                "page": 96,
+                "from": "vupload",
+                "part": "09.演示API接口的使用",
+                "duration": 205,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n230817safida1cp2cukq2vqicnq199r_firsti.jpg"
+            }
+        ],
+        "subtitle": {
+            "allow_submit": false,
+            "list": []
+        },
+        "is_season_display": false,
+        "user_garb": {
+            "url_image_ani_cut": ""
+        },
+        "honor_reply": {},
+        "like_icon": "",
+        "need_jump_bv": false,
+        "disable_show_up_info": false
+    }
+}
