@@ -66,6 +66,13 @@ function get_cols(o) {
           "key": k,
       }
   })
+  cols[0].width = 11
+  cols[1].width = 10
+  cols[2].width = 13
+  cols[3].width = 11
+  cols[4].width = 50
+  cols[5].width = 4
+  cols[8].width = 50
   return cols
 }
 
@@ -83,7 +90,18 @@ function item2xlsx(file) {
       text: item.url,
       hyperlink: item.url,
     }
+    const date = new Date(item.duration * 1000).toISOString()
+    const time = date.substr(11, 8);
+    item.duration = time
     return item
+  })
+
+  item_list.sort((a, b) => {
+    if (a.view !== b.view) {
+      return b.view - a.view
+    } else {
+      return a.page - b.page
+    }
   })
   
   const workbook = new ExcelJS.Workbook();
@@ -91,6 +109,18 @@ function item2xlsx(file) {
   const worksheet = workbook.addWorksheet('up_2');
   
   worksheet.columns = get_cols(item_list[0])
+
+  worksheet.autoFilter = {
+    from: {
+      row: 1,
+      column: 1
+    },
+    to: {
+      row: 1,
+      column: 9
+    }
+  }
+
   console.log(`写入数据数：${item_list.length}`)
   const newRows = worksheet.addRows(item_list);
 
