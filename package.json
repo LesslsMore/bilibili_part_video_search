@@ -17,6 +17,8 @@
     "csv-write-stream": "^2.0.0",
     "elasticsearch": "^16.7.3",
     "exceljs": "^4.4.0",
+    "md5": "^2.3.0",
+    "node-fetch": "^3.3.2",
     "request": "^2.88.2"
   }
 }
